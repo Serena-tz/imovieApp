@@ -1,0 +1,21 @@
+
+.moive-star{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    height: 40rpx;
+}
+.star-icon{
+    width: 25rpx;
+    height: 25rpx;
+    margin-top: 5rpx;
+}
+.movie-score{
+    font-size: 12px;
+    margin-left: 10rpx;
+}
+

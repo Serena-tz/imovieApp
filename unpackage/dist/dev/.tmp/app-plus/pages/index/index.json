@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "titleNView": false,
+  "usingComponents": {
+    "movie-star": "/components/movieStar"
+  }
+}

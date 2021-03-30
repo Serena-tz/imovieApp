@@ -1,0 +1,118 @@
+.carousel{
+    width: 100%;
+    height: 440upx;
+}
+/* 热门超英 */
+.hot-wrapper{
+    /* white-space: nowrap; */
+    margin-top: 12upx;
+    
+}
+.hot-title-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 20upx;
+}
+.hot-scroll{
+    white-space: nowrap;
+    width: 100%;
+    /* height: 380upx;
+     */
+    /* overflow: hidden; */
+}
+.single-moive{
+    display: flex;
+    flex-direction: column;
+    height: ;
+}
+.hot-icon{
+    width: 35upx;
+    /* height: 100%; */
+    margin-top: 12upx;
+}
+.hot-title {
+    margin-left: 10upx;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+.hot-scroll-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 10upx;
+    
+}
+.single-moive{
+    width:200upx ;
+    margin-left: 20upx;
+}
+.moive-thumb{
+    width: 200upx;
+    height: 270upx;
+}
+
+/* 熱門超英結束END  */
+
+/*热门超英预告 */
+.trailer-list{
+    padding: 0 20upx 20upx;
+    display: flex;
+    /* 让两个紧挨着的子元素有富裕空间 */
+    justify-content: space-between;
+    /* 换行 */
+    flex-wrap: wrap;
+}
+.trailer-video-item{
+    width: 350upx;
+    height: 220upx;
+    margin-top: 10upx;
+}
+/*热门超英预告END */
+/* 猜你喜欢 */
+.guess-u-like{
+    /* margin-top: 10upx; */
+    
+}
+.guess-u-like-item{
+    margin-bottom: 10upx;
+    padding: 10upx 20upx;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.guess-img{
+    width:180upx ;
+    height: 240upx;
+    border-radius: 10upx;
+}
+.guess-desc{
+    width: 340upx;
+}
+.guess-opt{
+    width: 140upx;
+    border-left: 4upx dashed #ddd;
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    flex-direction: column;
+}
+.guess-desc-info{
+    font-size: 14px;
+    color: #999;
+}
+.praise-icon{
+    width: 50upx;
+    height: 50upx;
+    /* 让子元素的内容居中。熟记 */
+    align-self: center;
+}
+.praise-me{
+    font-size: 14px;
+    color: #feab2a;
+    align-self: center;
+}
+.animation-opacity{
+    font-weight: bold;
+    opacity: 0;
+}
+/* 猜你喜欢END */
